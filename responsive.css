@@ -1,18 +1,28 @@
-/* @media and all (max-width: 1000px){
+
+/* tablet size viewport */
+@media (max-width: 1000px){
     .flex-list{
         flex-wrap: wrap;
     }
 
     .flex-list li{
         width: 50%;
+        height: 400px;
+
     }
-  } */
-  @media and all (max-width: 670px){
+}
+    
+/* smartphone/handphone */
+@media (max-width: 670px){
     .flex-list{
         flex-direction: column;
     }
-    .flex-list li{
+    .flex-list li, .img-container{
         margin: 0 auto;
+        width: 100%;
+        height: 400px;
+    }
+    .container-main{
         width: 100%;
     }
 }

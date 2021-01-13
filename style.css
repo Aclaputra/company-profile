@@ -50,7 +50,7 @@ header {
 .image-container .iphone-12 {
     height: 640px;
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 }
 
 .iphone-12 {
@@ -78,7 +78,7 @@ header {
     color: rgba(41, 41, 41, 0.89)
 }
 
-.iphone-12 .cta-links {
+ .cta-links {
     text-align: center;
 }
 
@@ -122,7 +122,7 @@ header {
 ul {
     list-style: none;
     margin: 0px;
-    padding: 60px 0px;
+    padding: 15px 0px;
     text-align: center;
   }
   li {
@@ -131,20 +131,9 @@ ul {
     height: 570px;
   }
   ul li{
-      margin-bottom: 10px;
+      margin-bottom: 5px;
   }
-  /* .li1 {
-    background-color: #ffc562;
-  }
-  .li2 {
-    background-color: #a0c3f7;
-  }
-  .li3 {
-    background-color: #ff8db3;
-  }
-  .li4 {
-    background-color: #88e7ce;
-  } */
+
   .flex-list{
       display: flex;
       flex-wrap: wrap;
@@ -153,8 +142,6 @@ ul {
       flex: auto;
       width: 50%;
   }
-
-  /* percobaan */
   .img{
       margin: 0 auto;
       width: 100%;
@@ -166,7 +153,7 @@ ul {
   .content{
       overflow: hidden;
   }
-  /* macam-macam theme */
+  /* main themes content */
   .theme-dark{
     background-color: #000;
     margin: 0 auto;
@@ -176,28 +163,15 @@ ul {
     margin: 0 auto;
     color: #1D1D1F;
   }
-  /* percobaan whole div clickable */
-  
   .container-main{
     width: 98%;
     height: 100%;
-    /* z-index: 3; */
   }
-  /* .unit-link{
-      display: block;
-      height: 100%;
-      width: 100%;
-      text-decoration: none;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      z-index: 9;
-  } */
+
   ul li img{
       width: 100%;
   }
-  /* lulus uji coba */
+
   .cta-links a{
       font-size: 23px;
       margin-right: 20px;
@@ -208,18 +182,17 @@ ul {
   .cta-links a:hover{
       text-decoration: underline;
   }
-  /* ga gitu penting */
-  .apple-watch-logo{
-      width: 25%;
-  }
-  /* coba hover */
+  
+  /* hover zoom products animation */
   .unit-image figure img{
       transition: transform .2s;
   }
   .unit-image figure img:hover{
       transform: scale(1.05);
   }
-
+  .apple-watch-logo{
+    width: 25%;
+}
 
 
 
