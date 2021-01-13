@@ -198,18 +198,28 @@ ul {
 
   /* css untuk footer */
 
-
-footer {
-    height: 150px;
-    width: 100%;
-    color: white;
-    background-color: rgb(29, 18, 18);
+  footer {
+      text-align: center;
+      background-color: rgb(29, 18, 18);
+      padding: 40px;
+      color: white;
   }
-  
-  .footer-wrapper {
-    text-align: center;
-    line-height: 150px;
-    font-size: 25px;
+
+  .footer-wrapper img {
+      width: 50px;
+      margin-bottom: 10px;
+  }
+
+  .footer-wrapper p {
+      margin: 0;
+  }
+
+  .footer-wrapper p a {
+      color: #fff;
+  }
+
+  .footer-wrapper p a:hover {
+      text-decoration: underline;
   }
 
 
