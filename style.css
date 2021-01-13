@@ -1,7 +1,123 @@
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: slategrey;
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+ul, li, ol {
+    list-style: none;
+    }
+
+    a {
+    text-decoration: none;
 }
+
+
+
+
+body, main{
+    margin: 0 auto;
+    font-family: 'Roboto', 'Helvetica', Arial, sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+/* css untuk header */
+header {
+    height: 50px;
+    width: 100%;
+    color: rgba(255, 253, 253, 0.87);
+    background-color: rgb(29, 18, 18);
+  }
+.header-wrapper {
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+  }
+
+
+/* container global - disabled */
+
+/* .container {
+    margin: 0 20px;
+  }
+*/
+
+.contents {
+    background-color: white;
+}
+
+
+.image-container .iphone-12 {
+    height: 640px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.iphone-12 {
+    height: 100%;
+    background-image: url(img/iphone_12.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;   
+    }
+
+.iphone-12 .title {
+    text-align: center;
+    padding-top: 50px;
+}
+
+
+.iphone-12 .title h1 {
+    font-size: 50px;
+    color: rgba(0, 0, 0, 0.897);
+    font-weight: 700;
+}
+.iphone-12 .title p {
+    font-size: 25px;
+    font-weight: bold;
+    color: rgba(41, 41, 41, 0.89)
+}
+
+.iphone-12 .cta-links {
+    text-align: center;
+}
+
+.image-container .iphone-12-pro {
+    height: 640px;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.iphone-12-pro {
+    height: 90%;
+    min-height: 100%;
+    background-image: url(img/iphone12pro-background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.iphone-12-pro .title {
+    text-align: center;
+}
+
+.iphone-12-pro .title h1 {
+    font-size: 60px;
+    color: rgba(255, 255, 255, 0.897);
+    font-weight: 700;
+}
+
+.iphone-12-pro .title p {
+    font-size: 30px;
+    font-weight: normal;
+    color: rgba(255, 253, 253, 0.87)
+}
+
+.iphone-12-pro .cta-links {
+    text-align: center;
+}
+
+
 
 ul {
     list-style: none;
@@ -83,9 +199,11 @@ ul {
   }
   /* lulus uji coba */
   .cta-links a{
+      font-size: 23px;
       margin-right: 20px;
       text-decoration: none;
       color: #2997FF;
+      font-weight: normal;
   }
   .cta-links a:hover{
       text-decoration: underline;
@@ -103,21 +221,23 @@ ul {
   }
 
 
-  /* @media (max-width: 1000px){
-    .flex-list{
-        flex-wrap: wrap;
-    }
 
-    .flex-list li{
-        width: 50%;
-    }
-  } */
-  @media (max-width: 670px){
-      .flex-list{
-          flex-direction: column;
-      }
-      .flex-list li{
-          margin: 0 auto;
-          width: 100%;
-      }
+
+  /* css untuk footer */
+
+
+footer {
+    height: 150px;
+    width: 100%;
+    color: white;
+    background-color: rgb(29, 18, 18);
   }
+  
+  .footer-wrapper {
+    text-align: center;
+    line-height: 150px;
+    font-size: 25px;
+  }
+
+
+
