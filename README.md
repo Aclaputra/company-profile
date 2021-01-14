@@ -9,4 +9,4 @@ Footer/Header tinggal diisikan.
 - Bagian Body ✔
 - Footer ✔
 - Setidaknya satu animasi ✔
-- Desain responsif untuk smartphone dan tablet
+- Desain responsif untuk smartphone dan tablet ✔
