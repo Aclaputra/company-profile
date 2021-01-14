@@ -23,16 +23,60 @@ body, main{
 
 /* css untuk header */
 header {
+    position: fixed;
+    top:0;
     height: 50px;
     width: 100%;
     color: rgba(255, 253, 253, 0.87);
     background-color: rgb(29, 18, 18);
   }
+
+
 .header-wrapper {
     text-align: center;
     line-height: 50px;
     font-size: 30px;
   }
+
+.header-list{
+    margin-left:50px;
+
+}
+.header-list a {
+
+  margin-left:50px; 
+  font-size:20px;
+  margin-bottom:10px   
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s; 
+
+}
+.logo{
+     width: 30px;
+  margin-top: 10px;
+  margin-bottom:10px;
+  float:left;
+  margin-left:30px;
+}
+span{
+    margin-left:20px;
+    float:left;
+}
+
+
+.cari{
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-right:30px;
+    float:right;
+    background-color:rgb(29, 18, 18);
+    border-radius:10px;
+}
+
 
 
 /* container global - disabled */
