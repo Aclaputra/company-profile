@@ -1,6 +1,6 @@
 
 /* tablet size viewport */
-@media (max-width: 1000px){
+@media (max-width: 1024px){
     .flex-list{
         flex-wrap: wrap;
     }
@@ -8,7 +8,19 @@
     .flex-list li{
         width: 50%;
         height: 400px;
-
+    }
+    .foot-notes{
+        height: 500px;
+    }
+    footer{
+        height: 1100px;
+    }
+    .fa-searchs{
+        visibility: visible;
+    }
+    .search{
+        visibility: hidden;
+        position: absolute;
     }
 }
     
@@ -24,5 +36,39 @@
     }
     .container-main{
         width: 100%;
+    }
+    .hp-viewport-hide{
+        visibility: hidden;
+    }
+    .menu-logo{
+        visibility: visible;
+    }
+    .hp-viewport{
+        position: absolute;
+        
+    }
+    .header-shoping{
+        right: 10px;
+
+    }
+    .apple-header{
+        margin: 0 auto;
+    }
+    .menu-logo{
+        top: 18px;
+        left: 30px;
+    }
+    .footer-container, .footer-list-container{
+        width: 100%;
+    }
+    footer{
+        height: 800px;
+    }
+    .foot-notes{
+        height: 0;
+    }
+    .foot-notes ul li{
+        margin-bottom: 100px;
+        display: none;
     }
 }

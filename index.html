@@ -22,20 +22,31 @@
     <!-- Bagian header-->
     <header>
         <div class="header-wrapper">
-        <img class="logo" src="./img/apple-logo.png">
-        
-        <span>Apple</span>
-        <div class="header-list">
-            <a href="#">Product</a>
-            <a href="#">About us</a>
-            <a href="#">Contact</a>
+            <span class="menu-logo hp-viewport fas fa-ellipsis-h"></span>
+            <ul class="header-list">
+                
+                <li class="header-content hp-viewport apple-header"><a href="https://www.apple.com/"><img class="logo" src="./img/apple-logo.png"></a></li>
+
+                <li class="header-content hp-viewport-hide"><a href="https://www.apple.com/mac/">Mac</a></li>
+                <li class="header-content hp-viewport-hide"><a href="https://www.apple.com/ipad/">iPad</a></li>
+                <li class="header-content hp-viewport-hide"><a href="https://www.apple.com/iphone/">iPhone</a></li>
+                <li class="header-content hp-viewport-hide"><a href="https://www.apple.com/watch/">Watch</a></li>
+                <li class="header-content hp-viewport-hide"><a href="https://www.apple.com/tv/">TV</a></li>
+                <li class="header-content hp-viewport-hide"><a href="https://www.apple.com/music/">Music</a></li>
+                <li class="header-content hp-viewport-hide"><a href="https://support.apple.com/">Support</a></li>
+                <!-- masukkin input search -->
+                
+                <li class="header-content hp-viewport-hide fa-searchs"><a href="#" class="fas fa-search"></a></li>
+                <input class="search" placeholder="search" type="search" name="">
+                <!-- masukkin input search -->
+
+                <li class="header-content hp-viewport header-shoping"><a href="https://www.apple.com/us/shop/goto/bag" class="fas fa-shopping-bag"></a></li>
+            </ul>
+
         </div>
-        
-            <input class="cari" placeholder="search" type="search" name="">
-     </div>
     </div>
     </header>
-
+    <!-- header -->
 
     <main>
 
@@ -44,7 +55,7 @@
 
         <div class="container">
             <div class="contents">
-                <div class="image-container">
+                <div class="image-container" onclick="location.href='https://www.apple.com/iphone-12/';" style="cursor: pointer;">
                     <div class="iphone-12">
                         <div class="title">
                             <h1>iPhone 12</h1>
@@ -56,7 +67,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="image-container">
+                <div class="image-container" onclick="location.href='https://www.apple.com/iphone-12-pro/';" style="cursor: pointer;">
                     <div class="iphone-12-pro">
                         <div class="title">
                             <h1>iPhone 12 Pro</h1>
@@ -69,21 +80,9 @@
                     </div>
                 </div>
 
+        <!-- Masukkan & buat apple fitness dibawah -->
 
-<<<<<<< Updated upstream
-                <!-- <div class="image-container">
-                <div class="fitness">
-                    <div class="title">
-                        <h1>Fitness+</h1>
-                        <p>It's a leap year.</p>
-                    </div>
-                    <div class="cta-links">
-                        <a href="#" class="learn-more-link">Learn more ></a>
-                        <a href="#" class="buy-link">Buy ></a>
-=======
-=======
->>>>>>> pr/1
-                <div class="image-container">
+           <!-- <div class="image-container">
                     <div class="fitness">
                         <div class="title">
                             <h1>Fitness+</h1>
@@ -93,11 +92,8 @@
                             <a href="#" class="learn-more-link">Learn more ></a>
                             <a href="#" class="buy-link">Buy ></a>
                         </div>
->>>>>>> Stashed changes
-=======
->>>>>>> pr/1
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
 
@@ -145,7 +141,7 @@
 
             <li class="li3 content">
 
-                <div class="theme-dark container-main">
+                <div class="theme-dark container-main" onclick="location.href='https://www.apple.com/macbook-air/';" style="cursor: pointer;">
                     <div class="unit-copy-wrapper">
                         <img class="mackbook-air-logo" src="./img/macbook-air-logo.png" alt=""
                             style="width: 35%; margin-top: 55px;">
@@ -165,7 +161,7 @@
 
             <li class="li4 content">
 
-                <div class="theme-light container-main">
+                <div class="theme-light container-main" onclick="location.href='https://www.apple.com/apple-one/'" style="cursor: pointer;">
                     <div class="unit-copy-wrapper">
                         <img src="./img/apple-one-logo.png" alt="" style="width: 30%; margin-top: 20px;">
                         <h2 class="headline">Bundle up to six Apple services.<br>And enjoy more for less</h2>
@@ -181,15 +177,92 @@
                     </div>
                 </div>
             </li>
+            <li class="li5 content">
+
+                <div class="theme-light container-main" onclick="location.href='https://www.apple.com/apple-card/'" style="cursor: pointer;">
+                    <div class="unit-copy-wrapper">
+                        <img src="./img/apple-card-logo.png" alt="apple-card-logo" style="width: 20%; margin-top: 20px;">
+                        <h2 style="margin-bottom: 10px; font-size: 19px; color: #1D1D1F">
+                            Get 3% Daily Cash back on<br> 
+                            purchases from Apple when<br> 
+                            you use Apple Card
+                        </h2>
+                    </div>
+                    <div class="cta-links">
+                        <a href="">Learn more ></a>
+                    </div>
+                    <div class="unit-image">
+                        <figure style="margin-top: 0;">
+                            <img src="./img/apple-card.png" alt="apple-card" style="width: 80%;">
+                        </figure>
+                    </div>
+                </div>
+            </li>
+
+            <li class="li6 content">
+
+                <div class="theme-dark container-main dickison" onclick="location.href='https://tv.apple.com/'" style="cursor: pointer;">
+                    
+                    
+                    <div class="unit-copy-wrapper">
+                        <img src="./img/apple-tv-logo.png" alt="apple-tv-logo" style="width: 15%; margin-top: 20px;">
+                        <h2>You can't hide from greatness.</h2>
+                    </div>
+                    <div class="cta-links"><a href="https://tv.apple.com/season/umc.cmc.7525wsaxw3oprxq6b307ideiz?showId=umc.cmc.1ogyy5s2agasxa5qztabrlykn&itscg=10000&itsct=atv-0-apl_hp-pmo_wch-dickinson2-201104" style="color: white;">Watch the new season <span class="fas fa-play-circle" style="float: none; margin: 0;"></span> </a></div>
+                    <div class="unit-image">
+                        <figure>
+                            <img src="./img/dickinson-apple-tv.png" alt="apple-tv" style="width: 80%;">
+                        </figure>
+                    </div>
+                    
+
+                </div>
+            </li>
         </ul>
     </main>
 
     <!-- Bagian footer-->
     <footer>
-        <div class="footer-list">
-            <img class="logo-footer" src="img/apple-logo.png" alt="footer logo">
-            <p class="txt-copy"><a target="_blank" href="https://www.apple.com/id/">appleindonesia</a> &copy; 2021</p>
+        <div class="footer-container">
+            <div class="foot-notes">
+                <ul>
+                    <li>
+                        1. Price includes a $30 AT&T, T-Mobile, Sprint, or Verizon discount. Requires activation with carrier. Monthly pricing: Available to qualified customers and requires 0% APR.
+                    </li>
+
+                    <li>
+                        2. Monthly pricing: Available to qualified customers and requires 0% APR, 24-month installment loan with Citizens One or Apple Card Monthly Installments.
+                    </li>
+
+                    <li>
+                        3. $9.99/month after free trial. No commitment. Plan automatically renews after trial until cancelled.
+                    </li>
+
+                    <li>
+                        4. The Apple One free trial includes only services that you are not currently using through a free trial or a subscription.
+                    <li>
+
+                    <li>
+                        To access and use all the features of Apple Card, you must add Apple Card to Wallet on an iPhone or iPad with iOS 12.4 or later or iPadOS.
+                    </li>
+
+                    <li>
+                        Available for qualifying applicants in the United States.
+                    </li>
+                    
+                    <li>
+                        Apple Card is issued by Goldman Sachs Bank USA, Salt Lake City Branch.
+                    </li>
+                    <li>
+                        Apple TV+ is $4.99/month after free trial. One subscription per Family Sharing group. Offer good for 3 months after eligible device activation. Plan automatically renews until cancelled. Restrictions and other terms apply.
+                    </li>
+                </ul>
+            </div>
+
         </div>
+    </div>
+    <hr style="width: 70%;">
+    <div class="footer-container">
         <div class="footer-list">
             <h3>Shop and Learn</h3>
             <p><a href="https://www.apple.com/mac">Mac</a></p>
@@ -233,11 +306,14 @@
                     Status</a></p>
             <p><a href="https://www.apple.com/shop/help">Shopping Help</a></p>
         </div>
-        <div class="clear-footer"></div>
+        <!-- <div class="footer-copyright">
+            <img class="logo-footer" src="img/apple-logo.png" alt="footer logo">
+            <p class="txt-copy"><a target="_blank" href="https://www.apple.com/id/">appleindonesia</a> &copy; 2021</p>
+        </div> -->
+    </div>
     </footer>
 
     
-=======
->>>>>>> pr/1
+
 </body>
 </html>
