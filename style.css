@@ -243,27 +243,43 @@ ul {
   /* css untuk footer */
 
   footer {
-      text-align: center;
       background-color: rgb(29, 18, 18);
       padding: 40px;
       color: white;
   }
 
-  .footer-wrapper img {
+  .logo-footer {
       width: 50px;
       margin-bottom: 10px;
   }
 
-  .footer-wrapper p {
+  .txt-copy {
       margin: 0;
   }
 
-  .footer-wrapper p a {
+  .txt-copy a {
       color: #fff;
   }
 
-  .footer-wrapper p a:hover {
+  .txt-copy a:hover {
       text-decoration: underline;
+  }
+
+  .footer-list {
+      width: 25%;
+      float: left;
+  }
+
+  .footer-list p a {
+      color: #fff;
+  }
+
+  .footer-list p a:hover {
+      text-decoration: underline;
+  }
+
+  .clear-footer {
+      clear: left;
   }
 
 
