@@ -1,4 +1,4 @@
-# Apple Website Clone using only HTML 7 CSS - Progate Project Team.
+# Apple Website Clone using only HTML & CSS - Progate Project Team.
 
 # To be declared "PASS", your Webpage must have 6 of this components:
 
