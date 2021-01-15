@@ -174,7 +174,46 @@ span{
 .iphone-12-pro .cta-links {
     text-align: center;
 }
+.image-container .fitness {
+    height: 500px;
+    width: 100%;
+    padding-top: 0%;
+    flex: auto;
+    
+}
 
+.fitness {
+    height: 90%;
+    min-height: 100%;
+    background-image: url(img/apple-fitness.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 00px;
+}
+
+.title .hello {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 80px;
+    color: rgba(0, 0, 0, 0.897);
+    font-weight: 700;
+}
+
+
+
+ .title .A {
+     text-align: center;
+    font-size: 30px;
+    font-weight: normal;
+    margin-top: 30px;
+    color: rgba(0, 0, 0, 0.87)
+    
+}
+
+.fitness .cta-links {
+    text-align: center;
+}
 
 /* main */
 ul {
