@@ -1,4 +1,4 @@
-# Apple Website Clone using only HTML & CSS - Progate Project Team.
+# Apple Website Clone using only HTML & CSS - Progate New year 2021 Bootcamp Project Team.
 
 # To be declared "PASS", your Webpage must have 6 of this components:
 
